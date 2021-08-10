@@ -1,1 +1,2 @@
+This is a change from other branch
 This is my merger file. We will use this to examine merge conflicts.
