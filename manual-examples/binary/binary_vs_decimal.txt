@@ -1,0 +1,88 @@
+BASE 10 (Decimal)
+000
+001
+002
+003
+004
+005
+006
+007
+008
+009
+010
+011
+012
+...
+019
+020
+...
+099
++100
+-100
+
+BASE 2 (Binary)
+0000 - 0
+0001 - 1
+0010 - 2
+0011 - 3
+0100 - 4
+0101 - 5
+0110 - 6
+0111 - 7
+
+One's and Two's Compliment are ways to calculate negative numbers in binary. For both one's and two's compliment, you need to know how many binary digits you are 'looking at' AND you need to know what type of conversion (one's vs two's) you are performing...
+
+One's compliment: Reverse ALL binary digits
+0000 - +0
+1111 - -0
+
+0000 0000 - 0
+1111 1111 - -0
+0000 1111 - 15
+
+0001 - +1
+1110 - -1
+
+0010 - +2
+1101 - -2
+
+0110 - +6
+1001 - -6
+
+0111 - +7
+1000 - -7
+
+Two's Compliment: Reverse All binary digits, THEN add 1:
+0000 - 0
+
+0001 - +1
+1111 - -1
+
+0010 - +2
+1110 - -2
+
+0011 - +3
+1101 - -3
+
+0100 - +4
+1100 - -4
+
+0101 - +5
+1011 - -5
+
+0110 - +6
+1010 - -6
+
+0111 - +7
+1001 - -7
+
+1000 - -8
+
+0000 0000 1111 1111 - 255
+1111 1111 0000 0001 - (-255)
+
+When you computer receives information, typically there is some form of 'token' that
+describes metadata (information about the data) to follow
+Byte - 8 bits
+[1000 0000 0111] [0000 0000 0000 0000 0000 0000 0000 0010]
+
