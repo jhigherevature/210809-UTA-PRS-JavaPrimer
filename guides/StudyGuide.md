@@ -1,0 +1,183 @@
+## Study Guide
+
+You should be able to explain and apply the following topics:
+### Software Development Lifecycle
+
+- SDLC Phases:
+  - Requirements gathering and analysis
+  - Project planning and design
+  - Development
+  - Testing
+  - Deployment & Maintainence
+- Methodologies
+- Waterfall
+- Four Core Agile principles
+- User Story
+- Agile frameworks
+  - Scrum
+  - Kanban
+- Scrum ceremonies
+  - Sprint
+  - Sprint planning
+  - Daily Scrum (standup)
+    - blockers
+  - Sprint Review
+  - Sprint Retrospective
+- Agile terminology
+  - Product/Project backlog
+  - Sprint backlog
+  - Scrum
+  - Card
+  - Board
+
+### Programming Fundamentals
+- Code Comments
+- What is CLI
+- Common BASH Commands
+  - pwd, mkdir, clear, cd, cat, echo, ls, grep, touch, mv, rm
+- What is Git
+- How do you create a repository
+- What does the Commit Command do
+- What does the Add Command do
+- What does the Push Command do
+- What does the Pull Command do
+- What is version control
+- What is a branch
+- Clone vs Fork
+- What is Binary
+- What is Assembly
+- Stack vs Heap Memory
+
+### Java Fundamentals
+- Features, benefits, and drawbacks of the Java language
+  - WORA (write once, run anywhere)
+  - Backed by Oracle
+  - Rich APIs (e.g. Collections API)
+  - Object-oriented
+  - Strongly/strictly typed
+  - High level (e.g. memory handled via automatic garbage collection)
+- POJO vs Bean
+- Stack vs Heap
+- Purpose and contents of the JDK, JRE, and JVM
+- Garbage collection (generally, what does the garbage collector do?)
+- Main method signature and significance
+- Compiling and executing Java code on the command line
+  - java command
+  - javac command
+- JavaDocs - What is it, what is it used for, how do you access it?
+- Primitive data types
+  - boolean
+  - byte
+  - char
+  - short
+  - int
+  - float
+  - double
+  - long
+- Operators
+  - unary
+    - pre/post increment/decrement
+    - not
+    - instanceof
+  - binary
+    - mathematical
+    - logical
+  - assignment and compound assignment
+  - ternary
+- Scopes of variables
+  - static/class
+  - object/instance
+  - method
+  - block
+- Control flow statements
+  - for
+  - enhanced for loop
+  - if/else 
+  - while
+  - do-while
+  - switch
+  - labels
+  - break and continue
+- Class members
+  - Fields/Variables
+  - Methods
+    - Arguments vs Parameters
+  - Constructors
+- Access modifiers
+  - public
+  - protected
+  - default
+  - private
+- Non-access modifiers
+  - static
+  - final
+  - abstract
+- Packages and import statements
+- this and super keywords
+- Constructor chaining
+- JRE library classes
+  - Object
+    - equals, hashCode, and toString methods
+  - Math
+  - System
+  - String
+  - StringBuilder
+  - StringBuffer
+  - Collections (class NOT interface)
+  - Arrays (class NOT objects)
+- Wrapper classes
+  - Autoboxing / unboxing
+- String pool
+- == vs .equals()
+- Making objects immutable
+- Varargs
+
+### OOP
+- Object-oriented programming principles
+  - Abstraction
+    - Abstract classes
+    - Interfaces
+  - Polymorphism
+    - Overloading
+    - Overriding
+    - Covariant return types
+  - Inheritance
+    - Inheriting from classes vs interfaces
+  - Encapsulation
+    - Using access modifiers with getters/setters
+- Object vs class
+- Abstract classes
+  - Difference between abstract and concrete class
+- Interfaces
+  - Implicit modifiers for variables and methods
+  - When to use instead of abstract class
+
+### Collections & Generics
+- Data Structure
+- Node-Based Datastructure
+- Array-Based Datastructure
+- Collections API
+  - Inheritance hierarchy
+  - List, Set, Map, and Queue interfaces and their differences
+  - Concrete implementations of above interfaces and their differences
+  - Using enhanced for loops
+  - Comparable and Comparator interfaces
+  - Iterable vs Iterator interfaces
+- Annotations
+  - @Override
+  - @Deprecated
+- Generics
+  - Generic classes
+  - Generic methods
+  - Diamond operator and type inference
+
+### Exceptions
+- Class hierarchy
+- Error
+- Exception
+- RuntimeException
+- Checked vs unchecked exceptions
+- Handling or declaring exceptions
+- try/catch/finally blocks
+  - rules for multiple catch blocks
+- Creating custom exceptions
