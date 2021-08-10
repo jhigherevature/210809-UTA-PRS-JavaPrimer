@@ -1,0 +1,5 @@
+hello there
+Hello in a second sentence
+Most programming languages introduce you with a hello world program
+This line has a weird case for HeLlO
+Another hello sentence

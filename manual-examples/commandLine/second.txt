@@ -1,0 +1,9 @@
+/c/Users/JosephHighe/Desktop
+desktop.ini
+example/
+example2/
+second.txt
+desktop.ini
+example/
+example2/
+second.txt
