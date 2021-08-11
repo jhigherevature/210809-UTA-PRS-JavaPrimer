@@ -23,5 +23,10 @@ public class Binary {
 		
 		System.out.println(x == 10); // true
 		System.out.println(x != 10); // false
+		
+		int i = (int)9.9999;
+		System.out.println(i); // 9
+		System.out.println(10/3); // 3
+		System.out.println(10.0f/3.0f); // 3.333
 	}
 }
