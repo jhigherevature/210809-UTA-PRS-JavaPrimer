@@ -62,4 +62,10 @@ public class Dog {
 		this.age = age;
 		this.weight = weight;
 	}
+
+	@Override
+	public String toString() {
+		return "Dog [name=" + name + ", breed=" + breed + ", age=" + age + ", weight=" + weight + "]";
+	}
+	
 }
