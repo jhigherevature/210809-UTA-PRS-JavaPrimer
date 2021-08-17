@@ -12,7 +12,7 @@ public class ZooSimulator {
 		printAnimalFunFact(larry);
 		
 		Animal anim = new Platypus("Patrick", 6, 20.0, new Tag());
-		
+	
 		/*
 		 * Primitive variable - Type of primitive, value
 		 * Reference variable - Type of reference, memory address
@@ -36,6 +36,10 @@ public class ZooSimulator {
 			((Platypus)anim).envenmon();
 		} else if (anim instanceof Lion) {
 			System.out.println("Lion has a mane of :" + ((Lion)anim).maneSizeInInches);
+		}
+		
+		if (anim instanceof Swimmable) {
+			((Swimmable) anim).swim();
 		}
 	}
 	

@@ -19,6 +19,10 @@ public abstract class Animal {
 	
 	public abstract void eat(String food);
 	
+	public void setTag(Tag tag) {
+		this.tag = tag;
+	}
+	
 	public Animal(String name, int age, double weight, Tag tag) {
 		System.out.println("Parameterized Animal Constructor Called");
 		this.name = name;
