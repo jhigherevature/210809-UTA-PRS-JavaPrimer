@@ -1,0 +1,20 @@
+"Throwing" Keywords:
+
+Throwable - Class that defines functionality
+
+Throws - Keyword used in a method's signature (after param list) that will communicate that a particular exception(s) can result through
+the execution of a method:
+
+public int sumOddNumbers(int a, int b) throws EvenNumberException {
+}
+
+Throw - Keyword used in the body of a method depending on the logic that we supply which results in an error/exception occuring
+
+public int sumOddNumbers(int a, int b) throws EvenNumberException {
+	try {
+		if (a % 2 == 0 || b % 2 == 0)
+			throw new EvenNumberException();
+	} catch (EvenNumberException e) {
+		e.printStackTrace();
+	}
+}

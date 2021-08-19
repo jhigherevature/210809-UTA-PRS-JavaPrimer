@@ -6,7 +6,6 @@
 * Alexander Yankosky
 * Chris Amihan
 * Ethan Wiley
-* Jasen Johnson
 * Juan Garcia
 * Lillian Isbell
 * Nik Derek
@@ -19,8 +18,8 @@
 * Alazar Hailemeskel
 * Brian Diaz
 * Chuckwunonso Onyia
-* Isaac Bustamante
 * Jonathan Powers
+* Jose Isaac Bustamante
 * Kevin Castillo
 * Louis Barrilleaux
 * Norman Brumm
@@ -33,10 +32,10 @@
 * Alex Junker
 * Carolina Ferraz
 * C-Jay Wall
-* Jacklyn Lilly
+* Jaclyn Lilly
+* Jasen Johnson
 * Jose Gomez
 * Kingsley Enyiorji
-* Michael Feyk
 * Patrick Downtown
 
 ## Team Vanquish
@@ -46,8 +45,8 @@
 * Alex Smith
 * Charles Bein
 * Damian Cisneros
-* James Preston
 * Joshua Williams
 * Kwame Duode
+* Naresh Gurung
 * Nicholas Isakson
 * Shahreen Hussain
