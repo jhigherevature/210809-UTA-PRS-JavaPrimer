@@ -14,6 +14,8 @@ public class Aisle {
 	String aisleName;
 	Aisle next;
 	Aisle prev;	
+	
+	// 'exits' to other Aisles...
 	Aisle[] connections;
 	Product[] products;
 	
@@ -24,9 +26,24 @@ public class Aisle {
 		this.products = products;
 	}
 	
+	/*
+	 * A way to return an aisle, using a (honestly arbitraty)
+	 * method to determine a direction
+	 */
 	public Aisle getConnectedAisle(String direction) {
+		// using if/else
 		if (direction == "north")
 			return connections[0];
+		else if (direction == "south")
+			return connections[1];
+		
+		// using switch
+		switch (direction) {
+		case "north":
+			return connections[0];
+		case "south":
+			return connections[1];
+		}
 		
 		return this;
 	}
